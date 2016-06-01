@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script type="text/javascript" src="js/jquery-1.12.4.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Survey</title>
+  </head>
+  <body>
+    <div class="container">
+
+      <h1>Survey</h1>
+      <form id="survey">
+        <label>What Is Your Name?</label>
+        <div class="form-group">
+          <input id="name" class="form-control" type="text">
+        </div>
+
+        <label>What's Your Date Of Birth?</label>
+        <div class="form-group">
+          <input id="born" class="form-control" type="date">
+        </div>
+
+        <label>What Is Your Favorite Color?</label>
+        <div class="form-group">
+          <input id="color" class="form-control" type="color">
+        </div>
+
+        <label>What Is Your Favorite Alcoholic Beverage?</label>
+        <select class="form-control" id="beverage">
+          <option>Beer</option>
+          <option>Wine</option>
+          <option>Cider</option>
+          <option>Mead</option>
+          <option>Cocktails</option>
+          <option>Shots</option>
+          <option>ALL OF THE ABOVE</option>
+        </select>
+
+        <p>&nbsp;</p>
+
+        <label>What Is Your Favorite Flavor Of Ice Cream?</label>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="chocolate" checked>
+            Chocolate
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="vanilla">
+            Vanilla
+          </label>
+        </div>
+        <div class="radio">
+          <label>
+            <input type="radio" name="flavor" value="strawberry">
+            Strawberry
+          </label>
+        </div>
+
+        <p>&nbsp;</p>
+        <label>What Is Your Favorite Music?</label>
+        <div class="form-group">
+          <input id="name" class="form-control" type="text">
+        </div>
+
+        <button type="submit" class="btn">Submit</button>
+      </form>
+      <div id="output">
+      </div>
+
+      <div id="results">
+        <p>Thank you for taking our survey!</p>
+      </div>
+
+    </div>
+
+  </body>
+</html>
